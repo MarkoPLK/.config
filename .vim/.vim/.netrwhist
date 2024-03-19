@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/marko/.config/nvim'
+let g:netrw_dirhist_6='/home/marko/.config/nvim/lua/theprimeagen'
+let g:netrw_dirhist_5='/home/marko/.config/nvim/lua'
+let g:netrw_dirhist_4='/home/marko/.config/nvim'
+let g:netrw_dirhist_3='/home/marko/.config'
+let g:netrw_dirhist_2='/home/marko/.tmux'
+let g:netrw_dirhist_1='/home/marko'
+let g:netrw_dirhist_0='/home/marko/HET'
+let g:netrw_dirhist_9='/home/marko/.vim'
+let g:netrw_dirhist_8='/home/marko'
