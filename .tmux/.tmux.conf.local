@@ -363,12 +363,11 @@ set -g @catppuccin_window_middle_separator " | "
 set -g @catppuccin_window_default_fill "none"
 
 set -g @catppuccin_window_current_fill "all"
-
-set -g @catppuccin_status_modules_right "application session user host date_time"
+set -g @catppuccin_status_modules_right "application session user battery date_time"
 set -g @catppuccin_status_left_separator "█"
 set -g @catppuccin_status_right_separator "█"
 
-set -g @catppuccin_date_time_text "%Y-%m-%d %H:%M:%S"
+set -g @catppuccin_date_time_text "%d-%m-%Y %H:%M:%S"
 
 # -- Config 3 --
 # set -g @catppuccin_window_left_separator ""
@@ -393,6 +392,7 @@ set -g @catppuccin_date_time_text "%Y-%m-%d %H:%M:%S"
 
 # Enable catppuccin theme
 run ~/.config/tmux/plugins/catppuccin/catppuccin.tmux
+run ~/.config/tmux/plugins/tmux-battery/battery.tmux
 
 # -- clipboard -----------------------------------------------------------------
 
